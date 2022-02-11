@@ -9,3 +9,17 @@ body{
     width: 100vh;
     margin: auto;
 }
+p{
+    text-align: center;
+    font-size: 10vw;
+    font-size: 10vh;
+    margin: auto;
+    padding-top: 20vh;
+}
+@media screen and (max-width:800px){
+    p{
+        font-size: 5vw;
+        font-size: 5vh;
+        color: red;
+    }
+}
